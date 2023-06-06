@@ -29,7 +29,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    display: flex;
+    display:flex;
     float: right;
 }
 
@@ -54,4 +54,12 @@ h1, h2 {
 
 .active {
     text-decoration: underline;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/hero-image.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
