@@ -62,4 +62,24 @@ h1, h2 {
     background-image: url('../images/hero-image.webp');
     background-repeat: no-repeat;
     background-position: center center;
+
+    /* animates zoom effect on loading of page */
+    animation: hero-zoom 5s forwards;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* creates level of zoom for hero image */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
